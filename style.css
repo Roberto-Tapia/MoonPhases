@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.hidden {
+    display: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 1.5s linear;
+}
+
+.visible {
+    display: flex;
+    opacity: 1;
+    transition: visibility 0s, opacity 1.5s linear;
+}
+
+img {
+    width: 100vw;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: white;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 50px;
+    width: 100%;
+}
+
+i {
+    color: white;
+    padding: 0 50px;
+    font-size: 50px;
+}
